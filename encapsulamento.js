@@ -8,6 +8,7 @@ class Poligono {
     return this.#calcularArea();
   }
 
+  // metodo privado
   #calcularArea() {
     return this.altura * this.altura;
   }
